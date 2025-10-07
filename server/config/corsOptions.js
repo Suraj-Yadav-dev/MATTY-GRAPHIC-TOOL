@@ -1,7 +1,7 @@
 // Allowed frontend URLs (local + production)
 const allowedOrigins = [
-  "http://localhost:5173",                       // Local dev
-  "https://matty-graphic-tool.vercel.app",      // Vercel frontend
+  "http://localhost:5173",                  // Local dev
+  "https://matty-graphic-tool.vercel.app", // Vercel frontend
 ];
 
 export const corsOptions = {

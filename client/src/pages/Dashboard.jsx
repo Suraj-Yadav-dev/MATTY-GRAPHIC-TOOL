@@ -26,7 +26,7 @@ export default function Dashboard() {
       <Sidebar />
 
       <div className="flex-1 p-4 overflow-auto">
-        <h1 className="text-2xl font-bold mb-4">Your Designs</h1>
+        <h1 className="text-2xl font-bold mb-4"> Designs</h1>
 
         {loading && <p>Loading designs...</p>}
         {error && <p className="text-red-500">{error}</p>}
